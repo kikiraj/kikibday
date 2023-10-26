@@ -89,6 +89,8 @@ function finish(){
   cft.classList.toggle("fin");
   p.classList.toggle("end");
   note.style.display = "block";
+  let beat = new Audio('bday.mp3');
+  beat.play()
 }
 
 function correct(){
@@ -123,10 +125,3 @@ function correct(){
   },3000);
   time++;
 }
-
-
-
-
-
-
-
